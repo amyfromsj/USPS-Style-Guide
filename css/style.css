@@ -1,5 +1,199 @@
-/*  Hi! your going to write styles here in the next couple activities. */
-/* .header{
-    width: 100vw;
-    height: 20vh;
-} */
+body {
+    font-family: 'Exo 2', sans serif;
+    font-weight: 100;
+    margin: 0;
+    background-color: #ccebff;
+}
+
+/* IDs */
+
+#pageTopic {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+/* General Classes */
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    /* outline: 1px solid red; */
+}
+
+.container {
+    margin: 0 12rem;
+}
+
+
+
+.header {
+    height: 250px;
+    max-height: 500px;
+    background-image: url(../images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.hexcode {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.swatch {
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+    
+}
+
+.colorContainer {
+    display: inline-block;
+    margin: 15px;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.colorContainer:hover {
+    transform: scale(1.1);
+}
+
+/* Typography */
+
+.bold {
+    font-weight: 700;
+}
+
+.large {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.type-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+.typography h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.typography h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.typography h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.typography h4 {
+    font-size: 26px;
+}
+
+.button {
+    font-size: 14px;
+}
+
+/*  Primary Colors */
+
+.darkBlue {
+    background-color: #333366;
+}
+
+.darkGrey {
+    background-color: #545454;
+}
+
+.lightGrey {
+    background-color: #E3e3e3;
+}
+
+.white {
+    background-color: white;
+}
+
+.lightBlue {
+    background-color: #12a0f6;
+}
+
+.red {
+    background-color: #f84848;
+}
+
+.orange {
+    background-color: #fc7705;
+}
+
+.lightBlue {
+    background-color: #13a0f6;
+}
+
+.lightGreen {
+    background-color: #8abe48;
+}
+
+/* UI Elements */
+
+.primary {
+    background-color: #2b459a;
+}
+
+.success {
+    background-color: #8abe48;
+}
+
+.danger {
+    background-color: #f84848;
+}
+
+.warning {
+    background-color: #fc7705;
+}
+
+.info {
+    background-color: #0099fa;
+}
+
+.primaryActive {
+    background-color: #3a66b7;
+}
+
+.successActive {
+    background-color: #668C35;
+}
+
+.dangerActive {
+    background-color: #AD4848;
+}
+
+.warningActive {
+    background-color: #ba7a43;
+}
+
+.infoActive {
+    background-color: #4386ba;
+}
+
+.sectionHead {
+    border-bottom: 8px solid #04517C;
+}
